@@ -1,0 +1,20 @@
+[
+    {
+        "{feature_name}" : "Home", 
+        "{feature_type}" : "screen", 
+        "components" : [
+            { 
+                "{component_name}" : "Video",
+                "{component_type}" : "tile"
+            }
+        ]
+    },
+    {
+        "{feature_name}" : "Video Details", 
+        "{feature_type}" : "screen"
+    },
+    {
+        "{feature_name}" : "Video Player", 
+        "{feature_type}" : "screen"
+    }
+]

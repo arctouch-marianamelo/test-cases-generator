@@ -1,0 +1,32 @@
+[
+    {
+        "{feature_name}" : "Home", 
+        "{feature_type}" : "screen", 
+        "{other_pre_condition_1}":  "And the user should be a Guest",
+        "{other_pre_condition_2}":  "And the user tanananana",
+        "components" : [
+            { 
+                "{component_name}" : "Video",
+                "{component_type}" : "tile"
+            }, 
+            {
+                "{component_name}" : "Happy Hour",
+                "{component_type}" : "card"
+            }
+        ]
+    },
+    {
+        "{feature_name}" : "Rewards", 
+        "{feature_type}" : "screen", 
+        "components" : [
+            { 
+                "{component_name}" : "Test 1",
+                "{component_type}" : "tile"
+            }, 
+            {
+                "{component_name}" : "Test 2",
+                "{component_type}" : "card"
+            }
+        ]
+    }
+]
