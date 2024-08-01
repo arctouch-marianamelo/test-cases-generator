@@ -23,7 +23,10 @@ def run():
             if not validate_input(replacement_choice, map(str, range(1, len(cli_feature_replacement_options) + 1))):
                 print('\n!!! Invalid tool choice. Please choose a number from the given options. !!!')
                 continue
-            replacement_file_path = feature_replacement_path / [cli_feature_replacement_options[int(replacement_choice[0]) - 1]][0]
+            replacement_file_path = feature_replacement_path / [sorted(cli_feature_replacement_options)[int(replacement_choice[0]) - 1]][0]
+            print (cli_feature_replacement_options)
+            print (replacement_choice)
+            print (replacement_file_path)
         else:
             replacement_file_path = feature_replacement_path / replacement_choice[0]
             if not os.path.exists(feature_replacement_path / replacement_file_path):
